@@ -1,0 +1,38 @@
+{
+  "name": "logos-bible-app",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A clean, readable Bible study app with deep research tools",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src/",
+    "lint:fix": "eslint src/ --fix",
+    "format": "prettier --write 'src/**/*.{js,jsx,css}'",
+    "format:check": "prettier --check 'src/**/*.{js,jsx,css}'",
+    "test": "vitest",
+    "test:run": "vitest run"
+  },
+  "keywords": ["bible", "study", "scripture", "greek", "cross-references"],
+  "license": "MIT",
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.5.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.25.0",
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^14.6.1",
+    "@vitejs/plugin-react": "^4.7.0",
+    "eslint": "^9.25.0",
+    "jsdom": "^26.1.0",
+    "prettier": "^3.5.3",
+    "vite": "^7.3.1",
+    "vitest": "^3.2.4"
+  }
+}
