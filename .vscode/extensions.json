@@ -1,0 +1,10 @@
+{
+	"recommendations": [
+		"esbenp.prettier-vscode",
+		"dbaeumer.vscode-eslint",
+		"dsznajder.es7-react-js-snippets",
+		"christian-kohler.path-intellisense",
+		"vitest.explorer",
+		"usernamehw.errorlens"
+	]
+}

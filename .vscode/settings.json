@@ -1,0 +1,39 @@
+{
+	"editor.formatOnSave": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.tabSize": 2,
+	"editor.bracketPairColorization.enabled": true,
+	"editor.guides.bracketPairs": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": "explicit"
+	},
+
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+
+	"eslint.useFlatConfig": true,
+
+	"emmet.includeLanguages": {
+		"javascriptreact": "html"
+	},
+
+	"testing.automaticallyOpenPeekView": "failureVisible",
+	"vitest.enable": true,
+	"vitest.commandLine": "npx vitest",
+
+	"files.exclude": {
+		"**/.DS_Store": true,
+		"**/node_modules": true,
+		"**/dist": true
+	},
+	"search.exclude": {
+		"**/node_modules": true,
+		"**/dist": true,
+		"**/package-lock.json": true,
+		"**/coverage": true
+	}
+}
